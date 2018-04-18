@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script');
+
+.hero {
+  padding: 3em;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .hero {
+    padding: 4em;
+  }
+}
+
+.title {
+  font-family: 'Oleo Script', serif;
+  font-size: 5em;
+  line-height: 1.1;
+  margin-bottom: 1em;
+}
+
+.subtitle {
+  color: hsl(0, 75%, 75%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+}
