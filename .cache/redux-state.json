@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "be85268d3b116fb5b722fc9961b0a9ae",
+        "contentDigest": "173ebd32026e4eecca88bb754bc92a6a",
         "owner": "internal-data-bridge"
       }
     },
@@ -345,6 +345,10 @@
           {
             "name": "gatsby-plugin-netlify-cms",
             "version": "^1.0.12"
+          },
+          {
+            "name": "react-kawaii",
+            "version": "^0.3.0"
           }
         ],
         "devDependencies": [],
@@ -366,12 +370,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-04-13T11:29:37.332Z",
+      "buildTime": "2018-04-18T11:01:31.305Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "34647c3b224e571f5b024f001444ab88",
+        "contentDigest": "f133b485de68889081f0019e26665fd5",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -392,14 +396,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e3c818565071ffef4fe72674bb470b5d",
+        "contentDigest": "43f0c599df85012fc7b706fe7550954c",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "6dbd17dcb2d0f28eca73cd9455004024"
+    "PLUGINS_HASH": "9c0c78bd3e62ae8bc161d8066372afef"
   },
   "componentDataDependencies": {
     "nodes": {},
