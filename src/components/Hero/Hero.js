@@ -1,5 +1,4 @@
 import React, {PureComponent} from 'react';
-import {Browser} from 'react-kawaii';
 import './Hero.css';
 
 class Hero extends PureComponent {
