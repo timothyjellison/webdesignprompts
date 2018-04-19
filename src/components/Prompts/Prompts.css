@@ -1,0 +1,14 @@
+
+.prompts {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  line-height: 1.65;
+  padding: 0 5vw;
+}
+
+@media screen and (min-width: 600px) {
+  .prompts {
+    font-size: 2em;
+    padding: 0 15vw;
+  }
+}

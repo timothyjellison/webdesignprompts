@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script');
 
 .hero {
+  margin-bottom: 3em;
   padding: 3em;
   text-align: center;
 }
+
+
 
 @media screen and (min-width: 600px) {
   .hero {
@@ -16,6 +19,8 @@
   font-size: 5em;
   line-height: 1.1;
   margin-bottom: 1em;
+/* color: navy;
+text-shadow: 5px 0px deepskyblue; */
 }
 
 .subtitle {
