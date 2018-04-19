@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script');
 
 .hero {
-  padding: 3em;
+  margin-bottom: 3em;
+  padding: 2em;
   text-align: center;
+}
+
+@media screen and (min-width: 350px) {
+  .hero {
+    padding: 3em;
+  }
 }
 
 @media screen and (min-width: 600px) {

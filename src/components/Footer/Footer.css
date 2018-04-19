@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script');
+
+.footer {
+  font-family: 'Montserrat', sans-serif;
+  height: 150px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.attribution {
+  color: hsl(0, 75%, 75%);
+  font-size: 1.5em;
+}
