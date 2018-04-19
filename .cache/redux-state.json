@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a2788e1b0d6d6d85a7bb1397867b43d6",
+        "contentDigest": "173ebd32026e4eecca88bb754bc92a6a",
         "owner": "internal-data-bridge"
       }
     },
@@ -345,6 +345,10 @@
           {
             "name": "gatsby-plugin-netlify-cms",
             "version": "^1.0.12"
+          },
+          {
+            "name": "react-kawaii",
+            "version": "^0.3.0"
           }
         ],
         "devDependencies": [],
@@ -366,33 +370,13 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-04-19T04:12:13.814Z",
+      "buildTime": "2018-04-18T11:01:31.305Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e632668b0d86d9c9d2a2b6e156189632",
+        "contentDigest": "f133b485de68889081f0019e26665fd5",
         "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /content/": {
-      "layout": null,
-      "jsonName": "content.json",
-      "internalComponentName": "ComponentContent",
-      "path": "/content/",
-      "component": "/Users/timothyellison/Projects/webdesignprompts/src/pages/content.js",
-      "componentChunkName": "component---src-pages-content-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/timothyellison/Projects/webdesignprompts/src/pages/content.js",
-      "id": "SitePage /content/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "7129dce218cc41fb6f440dfbb04f86d9",
         "owner": "internal-data-bridge"
       }
     },
@@ -412,14 +396,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1ec6311980e33eec6e677a6b7a7cb03f",
+        "contentDigest": "43f0c599df85012fc7b706fe7550954c",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "6dbd17dcb2d0f28eca73cd9455004024"
+    "PLUGINS_HASH": "9c0c78bd3e62ae8bc161d8066372afef"
   },
   "componentDataDependencies": {
     "nodes": {},

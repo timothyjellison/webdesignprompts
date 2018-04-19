@@ -6,12 +6,6 @@
         "path": "/dev-404-page/"
     },
     {
-        "componentChunkName": "component---src-pages-content-js",
-        "layout": null,
-        "jsonName": "content.json",
-        "path": "/content/"
-    },
-    {
         "componentChunkName": "component---src-pages-index-js",
         "layout": null,
         "jsonName": "index.json",
