@@ -1,4 +1,4 @@
-.intro {
+.main {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
   line-height: 1.65;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (min-width: 600px) {
-  .intro {
+  .main {
     font-size: 2em;
     padding: 0 15vw;
   }
