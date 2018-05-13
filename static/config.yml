@@ -1,12 +1,12 @@
 backend:
   name: github
-  repo: timothyjellison/blog
+  repo: timothyjellison/webdesignprompts
 
 media_folder: static/assets
 
 collections:
-  - name: blog
-    label: Blog
+  - name: prompts
+    label: Web Design Prompts
     folder: blog
     create: true
     fields:
