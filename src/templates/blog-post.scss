@@ -19,7 +19,9 @@ h3 {
 }
 
 .blog-post-preview {
+  background-color: hsla(0, 0%, 0%, 0.5);
   border-radius: 1em;
+  background-blend-mode: darken;
   color: white;
   font-weight: 800;
   margin-bottom: 1em;
@@ -29,6 +31,5 @@ h3 {
 }
 
 .blog-post-preview:hover {
-  background-blend-mode: darken;
-  background-color: hsla(0, 0%, 0%, 0.5);
+  background-color: hsla(0, 0%, 0%, 0.2);
 }

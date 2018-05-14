@@ -20,6 +20,7 @@ export default function Index({ data }) {
         <p className="intro">Design prompts to help CodeNewbies, FreeCodeCampers, &amp; other beginners <a href="http://justbuildwebsites.com/" target="_blank">just&nbsp;build&nbsp;websites</a>.</p>
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)
+          .sort((a, b) => a.node.frontmatter.order - b.node.frontmatter.order)
           .map(({ node: post }) => {
             return (
               <Link className="blog-post-preview-link" to={post.frontmatter.path} key={post.id}>
@@ -54,6 +55,7 @@ export const pageQuery = graphql`
             heroImage
             heroX
             heroY
+            order
           }
         }
       }
