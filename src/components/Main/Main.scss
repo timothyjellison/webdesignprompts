@@ -1,17 +1,21 @@
-.prompts {
+.main {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
   line-height: 1.65;
   padding: 0 5vw;
-}
-
-.prompt {
   margin-bottom: 3em;
 }
 
 @media screen and (min-width: 600px) {
-  .prompts {
+  .main {
     font-size: 2em;
     padding: 0 15vw;
   }
+}
+
+.intro {
+  color: hsl(0, 75%, 75%);
+  text-align: center;
+  margin-bottom: 3em;
+  margin-top: 3em;
 }

@@ -2,7 +2,6 @@ import React from "react";
 import Helmet from "react-helmet";
 import Hero from '../components/Hero/Hero';
 import Main from '../components/Main/Main';
-import './blog-post.css';
 
 export default function Template({
   data

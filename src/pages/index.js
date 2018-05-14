@@ -3,10 +3,8 @@ import Helmet from 'react-helmet';
 import Hero from '../components/Hero/Hero';
 import Main from '../components/Main/Main';
 import Link from "gatsby-link";
-import Prompts from '../components/Prompts/Prompts';
 import Footer from '../components/Footer/Footer';
-import './reset.css';
-import './index.css';
+import './index.scss';
 
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
@@ -24,7 +22,7 @@ export default function Index({ data }) {
           .filter(post => post.node.frontmatter.title.length > 0)
           .map(({ node: post }) => {
             return (
-              <Link className="blog-post-preview-link" to={post.frontmatter.path}>
+              <Link className="blog-post-preview-link" to={post.frontmatter.path} key={post.id}>
                 <div
                   className="blog-post-preview"
                   style={{
@@ -32,7 +30,7 @@ export default function Index({ data }) {
                     backgroundPositionX: post.frontmatter.heroX || 'inherit',
                     backgroundPositionY: post.frontmatter.heroY || 'inherit'
                   }}
-                  key={post.id}>{post.frontmatter.title}</div>
+                >{post.frontmatter.title}</div>
               </Link>
             );
           })}

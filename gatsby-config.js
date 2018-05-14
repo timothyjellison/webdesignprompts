@@ -10,6 +10,12 @@ module.exports = {
         path: `${__dirname}/src/pages`,
         name: 'pages',
       },
+    },
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        precision: 8,
+      }
     }
   ],
 };
