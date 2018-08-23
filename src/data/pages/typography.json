@@ -1,0 +1,34 @@
+{
+  "frontmatter": {
+    "path": "/typography",
+    "order": 2,
+    "title": "Typography",
+    "color": "#39A939"
+  },
+  "topics": [
+    {
+      "heading": "headings & paragraphs"
+    },
+    {
+      "heading": "text hierarchy"
+    },
+    {
+      "heading": "legibility vs readability"
+    },
+    {
+      "heading": "hand-written text"
+    },
+    {
+      "heading": "Serif and sans serif"
+    },
+    {
+      "heading": "Font combinations"
+    },
+    {
+      "heading": "Font stacks"
+    },
+    {
+      "heading": "Color"
+    }
+  ]
+}

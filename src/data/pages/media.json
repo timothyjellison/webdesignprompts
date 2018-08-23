@@ -1,0 +1,19 @@
+{
+  "frontmatter": {
+    "path": "/media",
+    "order": 4,
+    "title": "Media",
+    "color": "#D38647"
+  },
+  "topics": [
+    {
+      "heading": "image galleries"
+    },
+    {
+      "heading": "Responsive images"
+    },
+    {
+      "heading": "Video players"
+    }
+  ]
+}

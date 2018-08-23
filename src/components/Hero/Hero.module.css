@@ -1,0 +1,20 @@
+.hero {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  margin-bottom: 3em;
+}
+
+.heroShort {
+  height: 300px;
+}
+
+.title {
+  font-family: 'Oleo Script', serif;
+  font-size: 6em;
+  line-height: 1.1;
+  color: white;
+}

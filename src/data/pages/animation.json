@@ -1,0 +1,25 @@
+{
+  "frontmatter": {
+    "path": "/animation",
+    "order": 5,
+    "title": "Animation",
+    "color": "#cc5a5a"
+  },
+  "topics": [
+    {
+      "heading": "Functional vs decorative animation"
+    },
+    {
+      "heading": "State transitions"
+    },
+    {
+      "heading": "Entrances and exits"
+    },
+    {
+      "heading": "Shifting focus"
+    },
+    {
+      "heading": "Hover"
+    }
+  ]
+}

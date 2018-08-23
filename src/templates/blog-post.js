@@ -3,22 +3,22 @@ import Helmet from "react-helmet";
 import Hero from '../components/Hero/Hero';
 import Main from '../components/Main/Main';
 
-export default function Template({
-  data
-}) {
-  const post = data.markdownRemark;
+export default function Template({data: {pagesJson}}) {
   return (
     <div className="blog-post-container">
-      <Helmet title={`Web Design Prompts - ${post.frontmatter.title}`} />
       <Hero
-        bgImageSrc={post.frontmatter.heroImage}
-        title={post.frontmatter.title}
+        short
+        style={{backgroundColor: pagesJson.frontmatter.color}}
+        title={pagesJson.frontmatter.title}
       />
       <Main className="blog-post">
-        <div
-          className="blog-post-content"
-          dangerouslySetInnerHTML={{ __html: post.html }}
-        />
+        <div className="blog-post-content">
+        <ul>
+          {pagesJson.topics.map(topic => {
+            return <li>{topic.heading}</li>;
+          })}
+        </ul>
+        </div>
       </Main>
     </div>
   );
@@ -26,13 +26,14 @@ export default function Template({
 
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
+    pagesJson(frontmatter: { path: { eq: $path } }) {
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
         path
         title
-        heroImage
+        color
+      }
+      topics {
+        heading
       }
     }
   }
